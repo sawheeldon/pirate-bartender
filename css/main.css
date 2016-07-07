@@ -1,0 +1,77 @@
+/* -------------------------------------
+CSS reset
+(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+
+/* -------------------------------------
+General styles (General Module, wrapping around the modules bellow)
+(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+body {
+    text-align: center;
+    background: lightgray;
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+}
+
+#title {
+    padding: 2rem;
+    background-color: slategray;
+}
+
+h1,
+h3 {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+section {
+    background-color: #62a4d1;
+    padding: 5rem;
+}
+
+.output ul {
+    list-style: outside none none;
+}
+
+
+/* -------------------------------------
+Header styles (Main Module)
+(all the styles inside the < header > or < nav > tags)
+*/
+
+
+/* -------------------------------------
+Content styles (Main Module)
+(all the styles inside the < sections > or < aside > tags)
+*/
+
+
+/* -------------------------------------
+Footer styles (Main Module)
+(all the styles inside the < footer > tag)
+*/
+
+
+/* -------------------------------------
